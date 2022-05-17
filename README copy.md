@@ -26,7 +26,7 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - uses: rtCamp/action-cleanup@master
+      - uses: tangworkshop/action-cleanup@master
       - uses: actions/checkout@v2
       - run: echo Hello World
 ```
